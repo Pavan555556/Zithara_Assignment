@@ -1,0 +1,71 @@
+/* frontend/src/components/RecordsTable.css */
+.records-table-container {
+  font-family: Arial, sans-serif;
+}
+
+.records-table-container h2 {
+  margin-bottom: 20px;
+}
+
+.records-table-container input[type="text"] {
+  padding: 8px;
+  margin-bottom: 20px;
+  width: 300px;
+}
+
+.records-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.records-table th,
+.records-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.records-table th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+.records-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.records-table tbody tr:hover {
+  background-color: #ddd;
+}
+
+.pagination {
+  margin-top: 20px;
+}
+
+.pagination button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.pagination button:hover {
+  background-color: #45a049;
+}
